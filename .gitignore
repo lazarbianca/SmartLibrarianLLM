@@ -1,0 +1,41 @@
+# --- Python / FastAPI ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+
+# Local env files (keep example only)
+.env
+.env.*
+!.env.example
+
+# Chroma (local vector DB)
+chroma_db/
+
+# --- Node / Vite frontend ---
+smart-librarian-ui/node_modules/
+smart-librarian-ui/dist/
+smart-librarian-ui/.vite/
+smart-librarian-ui/.cache/
+smart-librarian-ui/npm-debug.log*
+smart-librarian-ui/yarn-error.log*
+smart-librarian-ui/pnpm-debug.log*
+smart-librarian-ui/.env
+smart-librarian-ui/.env.*
+!smart-librarian-ui/.env.example
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
